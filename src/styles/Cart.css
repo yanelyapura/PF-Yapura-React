@@ -1,0 +1,129 @@
+/* Cart.css */
+
+/* Estilo general para la tabla */
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilo para el contenedor de la tabla */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Estilo para las celdas de la tabla */
+.cart-table th,
+.cart-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Estilo para la fila de encabezado */
+.cart-table thead th {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilo para las filas pares */
+.cart-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para las filas impares */
+.cart-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Estilo para el botón de eliminar */
+.cart-table .remove-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de eliminar al pasar el mouse */
+.cart-table .remove-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el botón "Vaciar Carrito" */
+div>button,
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+div>button:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para las imágenes en la tabla del carrito */
+.cart-table img {
+    max-height: 100px;
+    /* Ajusta la altura máxima de la imagen */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    /* Centra la imagen */
+}
+
+/* Estilos para el formulario del comprador */
+form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type='text'],
+form input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}

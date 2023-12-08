@@ -1,0 +1,4 @@
+.container > span {
+  color: pink;
+  padding-left: 0.5rem;
+}
